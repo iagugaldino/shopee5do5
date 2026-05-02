@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oferta Relâmpago DeWalt — Shopee 4.4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --orange: #EE4D2D;
+      --orange-dark: #d03e20;
+      --orange-light: #ff6b4a;
+      --yellow: #FFD700;
+      --bg: #f5f5f5;
+      --white: #fff;
+      --text: #222;
+      --muted: #777;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ───── HEADER ───── */
+    .header {
+      background: var(--orange);
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(238,77,45,.35);
+    }
+
+    .logo-placeholder {
+      width: 130px;
+      height: 36px;
+      background: rgba(255,255,255,0.18);
+      border-radius: 6px;
+      border: 2px dashed rgba(255,255,255,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: rgba(255,255,255,0.85);
+      font-weight: 700;
+      letter-spacing: .5px;
+      /* Troque por: <img src="images/logoshopee.png" style="height:36px;"> */
+    }
+
+    .header-badge {
+      background: var(--yellow);
+      color: #333;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* ───── BANNER ───── */
+    .banner-wrap {
+      background: linear-gradient(135deg, #fff5f3 0%, #ffe8e3 100%);
+      border-bottom: 1px solid #ffd4cb;
+    }
+
+    .banner-placeholder {
+      width: 100%;
+      max-width: 480px;
+      height: 200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 2.5px dashed #EE4D2D;
+      background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(238,77,45,0.04) 10px,
+        rgba(238,77,45,0.04) 20px
+      );
+      /* Troque por: <img src="images/banner.png" style="width:100%;display:block;"> */
+    }
+
+    .banner-placeholder .ph-icon { font-size: 36px; opacity: .4; }
+    .banner-placeholder .ph-text { font-size: 13px; font-weight: 700; color: var(--orange); opacity: .7; }
+    .banner-placeholder .ph-hint { font-size: 11px; color: var(--muted); text-align: center; padding: 0 24px; }
+
+    /* ───── ALERT BAR ───── */
+    .alert-bar {
+      background: var(--yellow);
+      padding: 10px 16px;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 800;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      animation: pulse-bg 2s infinite;
+    }
+
+    @keyframes pulse-bg {
+      0%,100% { background: #FFD700; }
+      50% { background: #ffe033; }
+    }
+
+    .alert-dot {
+      width: 8px; height: 8px;
+      background: var(--orange);
+      border-radius: 50%;
+      animation: blink 1s infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes blink {
+      0%,100% { opacity:1; }
+      50% { opacity:.2; }
+    }
+
+    /* ───── MAIN ───── */
+    .main {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 20px 16px 40px;
+    }
+
+    /* ───── ARTICLE STYLE ───── */
+    .article {
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      margin-bottom: 16px;
+      animation: fadeUp .5s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity:0; transform: translateY(16px); }
+      to   { opacity:1; transform: translateY(0); }
+    }
+
+    .article-inner { padding: 20px 18px; }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: #fff3f0;
+      border: 1.5px solid #ffd4cb;
+      color: var(--orange);
+      font-size: 11px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 99px;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .headline {
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--text);
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .headline span {
+      color: var(--orange);
+    }
+
+    .subhead {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.65;
+      margin-bottom: 18px;
+    }
+
+    /* ───── PROOF STRIP ───── */
+    .proof-strip {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .proof-item {
+      flex: 1;
+      background: #fafafa;
+      border: 1.5px solid #ececec;
+      border-radius: 10px;
+      padding: 12px 10px;
+      text-align: center;
+    }
+
+    .proof-item .pi-val {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--orange);
+      line-height: 1;
+    }
+
+    .proof-item .pi-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    /* ───── DIVIDER ───── */
+    .divider {
+      height: 1px;
+      background: #f0f0f0;
+      margin: 18px 0;
+    }
+
+    /* ───── BODY TEXT ───── */
+    .body-text {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.7;
+      margin-bottom: 14px;
+    }
+
+    .body-text strong {
+      color: var(--text);
+      font-weight: 800;
+    }
+
+    /* ───── HIGHLIGHT BOX ───── */
+    .highlight-box {
+      background: linear-gradient(135deg, #fff5f3, #ffe8e2);
+      border-left: 4px solid var(--orange);
+      border-radius: 0 10px 10px 0;
+      padding: 14px 16px;
+      margin: 16px 0;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--orange-dark);
+      line-height: 1.5;
+    }
+
+    /* ───── CHECKLIST ───── */
+    .checklist {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 16px 0;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .checklist li .check {
+      width: 22px; height: 22px;
+      background: var(--orange);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px;
+      color: #fff;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    /* ───── WARNING BOX ───── */
+    .warning-box {
+      background: #fff3cd;
+      border: 1.5px solid #ffc107;
+      border-radius: 10px;
+      padding: 14px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #856404;
+      line-height: 1.5;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    /* ───── CTA CARD ───── */
+    .cta-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(238,77,45,.2);
+      border: 2px solid #ffd4cb;
+      animation: fadeUp .5s .2s ease both;
+    }
+
+    .cta-top {
+      background: linear-gradient(135deg, var(--orange), var(--orange-light));
+      padding: 18px 18px 16px;
+      text-align: center;
+    }
+
+    .cta-top .cta-eyebrow {
+      font-size: 11px;
+      font-weight: 800;
+      color: rgba(255,255,255,0.8);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .cta-top .cta-title {
+      font-size: 20px;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.3;
+    }
+
+    .cta-body {
+      padding: 18px;
+    }
+
+    .cta-desc {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .cta-btn {
+      display: block;
+      width: 100%;
+      background: linear-gradient(90deg, var(--orange), var(--orange-light));
+      color: #fff;
+      font-family: 'Nunito', sans-serif;
+      font-size: 17px;
+      font-weight: 900;
+      border: none;
+      border-radius: 10px;
+      padding: 17px;
+      cursor: pointer;
+      text-align: center;
+      letter-spacing: .3px;
+      box-shadow: 0 4px 16px rgba(238,77,45,.4);
+      transition: transform .15s, box-shadow .15s;
+      text-decoration: none;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(238,77,45,.5);
+    }
+
+    .cta-btn:active {
+      transform: scale(.98);
+    }
+
+    .cta-sub {
+      text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-top: 10px;
+    }
+
+    .cta-sub span { color: var(--orange); }
+
+    .stock-line {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--orange);
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .stock-dot {
+      width: 8px; height: 8px;
+      background: #22c55e;
+      border-radius: 50%;
+      animation: blink 1.2s infinite;
+    }
+
+    /* ───── COMMENTS ───── */
+    .comments-wrap {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 0 16px 40px;
+    }
+
+    .comments-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .comments-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .comments-see-all {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--orange);
+      cursor: pointer;
+    }
+
+    .comment {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+      display: flex;
+      gap: 10px;
+      animation: fadeUp .4s ease both;
+    }
+
+    .comment:nth-child(2) { animation-delay: .05s; }
+    .comment:nth-child(3) { animation-delay: .10s; }
+    .comment:nth-child(4) { animation-delay: .15s; }
+    .comment:nth-child(5) { animation-delay: .20s; }
+
+    .comment-avatar {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .comment-content { flex: 1; }
+
+    .comment-name {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 3px;
+    }
+
+    .comment-text {
+      font-size: 13px;
+      color: #444;
+      line-height: 1.5;
+    }
+
+    .comment-footer {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 7px;
+    }
+
+    .comment-time { font-size: 11px; color: var(--muted); }
+    .comment-likes { display: flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 700; color: var(--orange); cursor: pointer; }
+    .comment-reply { font-size: 11px; font-weight: 700; color: var(--muted); cursor: pointer; }
+
+    /* ───── COOKIES ───── */
+    .cookie-bar {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: rgba(30,30,30,0.97);
+      color: #eee;
+      font-size: 12px;
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 999;
+      line-height: 1.5;
+    }
+
+    .cookie-bar a { color: var(--orange); font-weight: 700; }
+
+    .cookie-btn {
+      background: var(--orange);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 16px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══ -->
+  <header class="header">
+    <!-- Troque por: <img src="images/logoshopee.png" style="height:36px;"> -->
+    <div class="logo-placeholder">📷 sua logo aqui</div>
+    <div class="header-badge">⭐ 4.4 &nbsp;Shopee</div>
+  </header>
+
+  <!-- ═══ BANNER ═══ -->
+  <div class="banner-wrap">
+    <!-- Troque por: <img src="images/banner.png" style="width:100%;display:block;"> -->
+    <div class="banner-placeholder">
+      <div class="ph-icon">🖼️</div>
+      <div class="ph-text">BANNER DO PRODUTO</div>
+      <div class="ph-hint">Troque por: &lt;img src="images/banner.png"&gt;</div>
+    </div>
+  </div>
+
+  <!-- ═══ ALERT ═══ -->
+  <div class="alert-bar">
+    <div class="alert-dot"></div>
+    Liquidação 4.4 — Estoque limitado, corra!
+  </div>
+
+  <!-- ═══ CONTEÚDO ═══ -->
+  <div class="main">
+
+    <!-- ARTIGO PRINCIPAL -->
+    <div class="article">
+      <div class="article-inner">
+
+        <div class="tag">🔥 Oferta Relâmpago</div>
+
+        <h1 class="headline">
+          A DeWalt que você queria <span>nunca foi tão barata</span> quanto agora
+        </h1>
+
+        <p class="subhead">
+          A Shopee liberou uma condição especial de liquidação 4.4 — mas não é pra todo mundo. Tem um teste rápido que separa quem realmente vai aproveitar.
+        </p>
+
+        <!-- PROOF -->
+        <div class="proof-strip">
+          <div class="proof-item">
+            <div class="pi-val">⭐ 4.4</div>
+            <div class="pi-label">Avaliação</div>
+          </div>
+          <div class="proof-item">
+            <div class="pi-val">+12k</div>
+            <div class="pi-label">Vendidos</div>
+          </div>
+          <div class="proof-item">
+            <div class="pi-val">🔒</div>
+            <div class="pi-label">Garantido</div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="body-text">
+          Se você já tentou comprar uma DeWalt antes e <strong>o preço desanimou</strong>, essa pode ser a única vez que a conta vai fechar.
+        </p>
+
+        <div class="highlight-box">
+          💡 A promoção 4.4 da Shopee abre uma janela pequena de desconto real em produtos profissionais. Quem chega primeiro, leva.
+        </div>
+
+        <p class="body-text">
+          Mas antes de liberar o acesso, a Shopee criou uma pesquisa rápida pra identificar quem é o perfil certo pra aproveitar a oferta. São <strong>5 perguntas, menos de 2 minutos.</strong>
+        </p>
+
+        <ul class="checklist">
+          <li><div class="check">✓</div>Alta potência e bateria durável</li>
+          <li><div class="check">✓</div>Marca líder mundial em ferramentas profissionais</li>
+          <li><div class="check">✓</div>Entrega garantida via Shopee</li>
+          <li><div class="check">✓</div>Preço de liquidação — condição única</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <div class="warning-box">
+          ⚠️ <span>Essa condição fica disponível enquanto o estoque durar. Uma vez esgotado, o preço volta ao normal.</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CTA CARD -->
+    <div class="cta-card">
+      <div class="cta-top">
+        <div class="cta-eyebrow">passo 1 de 2</div>
+        <div class="cta-title">Responda a pesquisa e descubra se você se qualifica 👇</div>
+      </div>
+      <div class="cta-body">
+        <p class="cta-desc">
+          São apenas 5 perguntas rápidas. Ao final, você descobre se tem acesso à oferta exclusiva.
+        </p>
+        <!-- TROQUE o href pelo caminho real do quiz, ex: href="index.html" -->
+        <a href="index.html" class="cta-btn">FAZER A PESQUISA AGORA →</a>
+        <div class="cta-sub">Grátis · Sem cadastro · <span>Resultado imediato</span></div>
+        <div class="stock-line">
+          <div class="stock-dot"></div>
+          <span id="stock-num">7</span> vagas restantes com esse desconto
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══ COMENTÁRIOS ═══ -->
+  <div class="comments-wrap">
+    <div class="comments-header">
+      <div class="comments-title">💬 Comentários</div>
+      <div class="comments-see-all">Ver todas as 18 respostas</div>
+    </div>
+
+    <div class="comment">
+      <img class="comment-avatar" src="https://i.pravatar.cc/40?img=12" alt="">
+      <div class="comment-content">
+        <div class="comment-name">Carlos Henrique</div>
+        <div class="comment-text">Já fiz aqui ué, funcionando mesmo, oloco kkkk 👀</div>
+        <div class="comment-footer">
+          <span class="comment-time">Agora mesmo</span>
+          <span class="comment-likes">❤️ 4</span>
+          <span class="comment-reply">Responder</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img class="comment-avatar" src="https://i.pravatar.cc/40?img=8" alt="">
+      <div class="comment-content">
+        <div class="comment-name">Rafael Gomes</div>
+        <div class="comment-text">isso é sério mesmo? alguém conseguiu? Respondem aqui pfv!</div>
+        <div class="comment-footer">
+          <span class="comment-time">25 min</span>
+          <span class="comment-likes">❤️ 2</span>
+          <span class="comment-reply">Responder</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img class="comment-avatar" src="https://i.pravatar.cc/40?img=15" alt="">
+      <div class="comment-content">
+        <div class="comment-name">Marcos Silva</div>
+        <div class="comment-text">demora nem 2 min esse treco, já apareceu desconto aqui 🔥</div>
+        <div class="comment-footer">
+          <span class="comment-time">32 min</span>
+          <span class="comment-likes">❤️ 7</span>
+          <span class="comment-reply">Responder</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img class="comment-avatar" src="https://i.pravatar.cc/40?img=11" alt="">
+      <div class="comment-content">
+        <div class="comment-name">Bruno Martins</div>
+        <div class="comment-text">Participei aqui e deu certo mesmo, achei que era fake kkk</div>
+        <div class="comment-footer">
+          <span class="comment-time">43 min</span>
+          <span class="comment-likes">❤️ 5</span>
+          <span class="comment-reply">Responder</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <img class="comment-avatar" src="https://i.pravatar.cc/40?img=5" alt="">
+      <div class="comment-content">
+        <div class="comment-name">Juliana Souza</div>
+        <div class="comment-text">comprei pro meu marido e ele amou 😍 valeu muito a pena</div>
+        <div class="comment-footer">
+          <span class="comment-time">48 min</span>
+          <span class="comment-likes">❤️ 9</span>
+          <span class="comment-reply">Responder</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ COOKIES ═══ -->
+  <div class="cookie-bar" id="cookie-bar">
+    <span><strong>Shopee e os cookies:</strong> a gente usa cookies para personalizar anúncios e melhorar sua experiência. Ao continuar, você concorda com nossa <a href="#">Política de Privacidade</a>.</span>
+    <button class="cookie-btn" onclick="document.getElementById('cookie-bar').style.display='none'">Continuar</button>
+  </div>
+
+  <script>
+    // Estoque decrescente
+    let stock = 7;
+    setInterval(() => {
+      if (stock > 1) {
+        stock--;
+        document.getElementById('stock-num').textContent = stock;
+      }
+    }, 9000);
+  </script>
+
+</body>
+</html>
